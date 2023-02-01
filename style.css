@@ -8,11 +8,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: teal;
+    background-color: rgb(141, 214, 214);
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: 8rem;
     font-family: Montserrat;
 }
 
