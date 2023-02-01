@@ -8,8 +8,8 @@ function randomRBG() {
 
 // create a way to change each letter independantly
 const letters = document.querySelectorAll('.letter');
-const intervalId = setInterval(function() {
+const intervalId = setInterval(function () {
     for (let letter of letters) {
-        letter.style.color = randomRBG
+        letter.style.color = randomRBG();
     }
 }, 1000);
